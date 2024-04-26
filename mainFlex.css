@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    list-style: none; /* remove lista*/
+    background-color: aquamarine;
+    width: 50%;
+}
+.linha{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.coluna{
+    flex-direction: column;
+}
+.container-maior{
+    width: 100%;
+    justify-content: space-between;
+
+}
+.amarela{
+    background-color: yellow;
+}
